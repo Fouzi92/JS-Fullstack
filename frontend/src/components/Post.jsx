@@ -21,7 +21,7 @@ const Post = ({post, userId}) => {
             </div>
             <p>{post.message}</p>
             <div className="icons-part">
-                <LikePost post={post} userId={userId} />
+            <LikePost post={post} userId={userId} />
             </div>
         </div>
     );
